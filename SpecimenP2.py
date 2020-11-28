@@ -1,3 +1,4 @@
+#Task1
 Size=3
 namesArr=[""]*Size
 Marks_1=[0]*Size
@@ -9,3 +10,8 @@ def setup():
         Marks_1=int(input("Your Test1 Score?"))
         Marks_2=int(input("Your Test1 Score?"))
         Marks_3=int(input("Your Test1 Score?"))
+
+        
+        
+        
+setup()
