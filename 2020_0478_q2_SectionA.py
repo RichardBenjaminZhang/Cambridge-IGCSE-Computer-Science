@@ -26,6 +26,11 @@ for i in range(Size):
 Total_Score=[0]*Size
 for i in range(Size):
     Total_Score[i]=Marks_1[i]+Marks_2[i]+Marks_3[i]
-print(Total_Score)
+    print(Total_Score[i])
+Class_Total=0
+for i in range(Size):
+    Class_Total=Class_Total+Total_Score[i]
+average=Class_Total/Size
+print(average)
 
 #Task3
