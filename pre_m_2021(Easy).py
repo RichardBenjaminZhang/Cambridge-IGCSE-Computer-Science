@@ -1,8 +1,8 @@
 #Task1
-Cost=25
-Coach_Size=80
-Time_Range=8
-Total_Passengers=0
+COST=25
+COACH_SIZE=80
+TIME_RANGE=8
+total_Passengers=0
 Total_Cost=0.0
 Coach_1=[0]*TIME_RANGE
 Coach_2=[0]*TIME_RANGE
@@ -61,4 +61,60 @@ if coach_1_total+tickets<=COACH_SIZE:
     coach_6[up_idx]+=tickets
     coach_6=total+tickets
     total_up=COST*tickets
-    
+  else:
+       print("There is no seat left for you. Closed“）
+    if coach_1_total+tickets<=COACH_SIZE:
+             coach_1[down_idx]+=tickets
+             coach_1=total+tickets
+             total_down=COST*tickets
+             elif coach_2_total+tickets<=COACH_SIZE:
+             coach_2[down_idx]+=tickets
+             coach_2=total+tickets
+             total_down=COST*tickets
+             elif coach_3_total+tickets<=COACH_SIZE:
+             coach_3[down_idx]+=tickets
+             coach_3=total+tickets
+             total_down=COST*tickets
+             elif coach_4total+tickets<=COACH_SIZE:
+             coach_4[down_idx]+=tickets
+             coach_4=total+tickets
+             total_dowm=COST*tickets
+             elif coach_5total+tickets<=COACH_SIZE:
+             coach_5[dowm_idx]+=tickets
+             coach_5=total+tickets
+             total_down=COST*tickets
+             elif coach_6total+tickets<=COACH_SIZE:
+             coach_6[down_idx]+=tickets
+             coach_6=total+tickets
+             total_down=COST*tickets
+             elif coach_6[8]+tickets<=COACH_SIZE:
+                coach_6[8]+=tickets
+             elif coach_6[9]+tickets<=COACH_SIZE:
+                coach_6[9]+=tickets
+             else:
+                  print("There is no seat left for you. You need to wait to the next day to go down the mountain")
+             total_cost=total_up+total_down
+             print("Total cost for your trip is:",total_cost
+                   available-= tickets
+def map_time_slot(time):
+    if time==9:
+         idx=0
+   elif time==10:
+         idx=1
+   elif time==11:
+         idx=2
+   elif time==12:
+         idx=3
+   elif time==13:
+         idx=4
+   elif time==14:
+         idx=5
+   elif time==15:
+         idx=6
+   elif time==16:
+         idx=7
+   return idx
+#Task3
+def task_3():
+    total_tickets=0
+    total_money=0.0
