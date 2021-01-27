@@ -118,3 +118,14 @@ def map_time_slot(time):
 def task_3():
     total_tickets=0
     total_money=0.0
+    for i in range(6):
+ total_tickets+=coach_1[i]+coach_2[i]+coach_3[i]+coach_4[i]+coach_5[i]+coach_6[i]
+                 total_money=total_tickets*COST
+                 print("total passengers of the day is:",int(total_tickets/2))
+                 print("total money of the day is:",total_money)
+                   print()
+           for i in range(3):
+                   task_1()
+                   task_2()
+                   task_3()
+          print(coach_1)
